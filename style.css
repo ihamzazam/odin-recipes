@@ -1,0 +1,31 @@
+html {
+    background-color: #8a9713;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+}
+img {
+    display: inline-block;
+    margin: 15px 10px;
+}
+
+.card {
+    width: 600px;
+    background: #dde0da;
+    margin: 16px auto;
+    padding: 8px;
+}
+
+.link {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    margin-left: 50px;
+}
