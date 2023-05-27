@@ -9,8 +9,8 @@ h1 {
     text-shadow: 2px 2px 4px #000000;
 }
 img {
-    display: inline-block;
     margin: 15px 10px;
+    flex: 1;
 }
 
 .card {
@@ -18,14 +18,20 @@ img {
     background: #dde0da;
     margin: 16px auto;
     padding: 8px;
+    display: flex;
 }
 
 .link {
-    display: inline-block;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     text-align: center;
     color: #ffffff;
     text-shadow: 2px 2px 4px #000000;
     margin-left: 50px;
+    align-self: center;
+    margin-right: 50px;
+}
+
+ul {
+    list-style-type: none;
 }
